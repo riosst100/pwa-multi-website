@@ -27,8 +27,6 @@ const StoreSwitcher = props => {
 
     if (!availableStores) return <Shimmer />;
 
-    if (availableStores.size <= 1) return null;
-
     const groups = [];
     const hasOnlyOneGroup = storeGroups.size === 1;
 
@@ -86,7 +84,7 @@ const StoreSwitcher = props => {
             <button
                 data-cy="StoreSwitcher-triggerButton"
                 className={classes.trigger}
-                aria-label={currentStoreName}
+                aria-label={currentStoreName || ''}
                 onClick={handleTriggerClick}
                 ref={storeMenuTriggerRef}
                 data-cy="StoreSwitcher-trigger"

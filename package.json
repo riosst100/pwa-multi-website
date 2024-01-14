@@ -1,7 +1,7 @@
 {
   "name": "@riosst100/pwa-multi-website",
   "author": "riosst100@gmail.com",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "main": "src/index.js",
   "pwa-studio": {
     "targets": {
