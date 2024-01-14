@@ -84,7 +84,7 @@ const StoreSwitcher = props => {
             <button
                 data-cy="StoreSwitcher-triggerButton"
                 className={classes.trigger}
-                aria-label={currentStoreName}
+                aria-label={currentStoreName || ''}
                 onClick={handleTriggerClick}
                 ref={storeMenuTriggerRef}
                 data-cy="StoreSwitcher-trigger"
