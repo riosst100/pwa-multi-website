@@ -1,0 +1,3 @@
+- Add multi website support with same domain to PWA studio (example: https://website.com/id for indonesia, https://website.com/sg for singapore)
+- Add website selector on header
+- Auto redirect to website by user IP
