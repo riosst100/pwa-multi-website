@@ -27,8 +27,6 @@ const StoreSwitcher = props => {
 
     if (!availableStores) return <Shimmer />;
 
-    if (availableStores.size <= 1) return null;
-
     const groups = [];
     const hasOnlyOneGroup = storeGroups.size === 1;
 
